@@ -1,0 +1,69 @@
+html {
+  max-height: 100%;
+  max-width: 100%;
+}
+body{
+  background-image: url(https://img.freepik.com/free-vector/blue-blurred-background_1035-3317.jpg?t=st=1718882457~exp=1718886057~hmac=6520861c8cc2f8aa560777105ec0051168b5a663f5f356ca28f7a14315d835fd&w=740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #3695b5;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0vh;
+  padding: 0vh;
+}
+h1{
+  text-align: center;
+  font-size: 10vh;
+  margin-top: 2vh;
+  opacity: 1;
+}
+h2{
+  text-align: center;
+  margin-top: 1vh;
+  opacity: 1;
+}
+#count-el{
+  font-size: 18vh;
+  text-align: center;
+  margin-top: 10vh;
+  opacity:1;
+}
+#buttons{
+  display: inline;
+  justify-content: center;
+}
+#increment-btn{
+  width: 50%;
+  max-width: 400px;
+}
+#save-btn{
+  width: 50%;
+  max-width: 400px;
+}
+button{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8vh;
+  padding: 10px 20px;
+  font-size: 4vw;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #3e8e41;
+}
+@media (max-width: 600px) {
+  #buttons {
+    justify-content: column;
+  }
+  button {
+    margin-bottom: 10px;
+  }
+}
